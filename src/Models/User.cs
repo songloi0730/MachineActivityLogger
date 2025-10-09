@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MachineActivityLogger.src.Models
 {
-    internal class User
+    public class User
     {
+        public string Username { get; set; }
+        public string UserLevel { get; set; }
+        public bool IsAuthenticated { get; set; }
+        public DateTime LoginTime { get; set; }
     }
 }
