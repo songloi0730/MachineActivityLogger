@@ -19,7 +19,7 @@ namespace MachineActivityLogger.src.Models
 
         public override string ToString()
         {
-            return $"[{Timestamp:yyyy-MM-dd HH:mm:ss}] | Editor: {Editor} | UserLevel: {UserLevel} | Tag: {Tag} | EditLevel: {EditLevel} | ActionType: {ActionType} | Content: {Content}";
+            return $"[{Timestamp:yyyy-MM-dd HH:mm:ss}] \nEditor: {Editor} | UserLevel: {UserLevel} \nTag: {Tag} | EditLevel: {EditLevel} | ActionType: {ActionType} \nContent: {Content}";
         }
 
         //public static LogEntry FromString(string logLine)

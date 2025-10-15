@@ -9,7 +9,7 @@ namespace MachineActivityLogger.src.Models
     public class User
     {
         public string Username { get; set; }
-        public string UserLevel { get; set; }
+        public int UserLevel { get; set; }
         public bool IsAuthenticated { get; set; }
         public DateTime LoginTime { get; set; }
     }
